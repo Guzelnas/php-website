@@ -24,13 +24,27 @@ THE SOFTWARE.
 -->
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title></title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title></title>
+
+      <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-    Here be dragons...    
+      <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="browse.php">browse.php</a></li>
+      <li role="presentation"><a href="about.php">about.php</a></li>
+      <li role="presentation"><a href="contact.php">contact.php</a></li>
+      <li role="presentation"><a href="index.php">index.php</a></li>
+      </ul>
+      <div class="container">
+      <p class="lead">Here be dragons...</p>
+      </div>
      <?php
         // put your code here
         ?>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
